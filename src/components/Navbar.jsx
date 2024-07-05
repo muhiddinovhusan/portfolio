@@ -9,7 +9,7 @@ const Navbar = () => {
 <h1 className=' text-3xl '>X</h1>
 </div>
 <div className='m-8 flex items-center justify-center gap-4 text-2xl  '>
-  <a href="https://t.me/yourtelegram">
+  <a href="https://t.me/muhiddinov_husan">
   
     <BsTelegram/>
   </a>
@@ -17,7 +17,7 @@ const Navbar = () => {
 
     <FaLinkedin/>
   </a>
-  <a href="">
+  <a href="https://github.com/muhiddinovhusan">
 
     <FaGithub/>
   </a>

@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from '../assets/images.jpg'
+import logo from '../assets/ava4.png'
 import { motion } from 'framer-motion'
+import { HERO } from '../constants'
 
 
 const container = (delay) => (
@@ -37,13 +38,13 @@ const Hero = () => {
               initial='hidden'
               animate='visible'
 
-              className='my-2 max-w-xl py-6 font-light tracking-tight '>Lorem ipsum dolor sit amet consectetu. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto unde temporibus rem magni voluptas perspiciatis dolore, fugiat nihil modi provident voluptates cum incidunt, minima culpa quis ipsum quas quia? Dolorem nam perferendis possimus quisquam dolores maxime corrupti mollitia, optio exercitationem.</motion.p>
+              className='my-2 max-w-xl py-6 font-light text-xl tracking-tight '>{HERO}</motion.p>
           </div>
 
         </div>
         <div className='w-full lg:w-1/2 lg:p-8 '>
           <div className='flex justify-center'>
-            <motion.img
+            <motion.img className='w-72 max-sm:w-64'
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{duration: 1, delay: 1.1}}

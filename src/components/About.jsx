@@ -1,6 +1,7 @@
 import React from 'react'
 import about from '../assets/about.jpg'
 import { motion } from 'framer-motion'
+import { ABOUT } from '../constants'
 
 
 
@@ -32,7 +33,7 @@ const About = () => {
           
           className='w-full lg:w-1/2 '>
 <div className='flex justify-center lg:justify-start'>
-<p className='my-2 py-6 max-w-xl '>Lorem ipsum dolor sit amet, consectetur adipisici lor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio voluptatibus laborum ab amet cumque ea doloribus officia voluptate corporis quaerat, debitis incidunt modi alias dolore dolores ipsam accusantium, corrupti itaque fuga. A animi obcaecati fugit minima cumque totam! Rerum maiores perspiciatis assumenda distinctio praesentium architecto beatae laudantium tempora sapiente perferendis!</p>
+<p className='my-2 py-6 max-w-xl text-xl max-md:text-lg max-sm:text-base '>{ABOUT}</p>
 </div>
           </motion.div>
       </div>
